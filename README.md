@@ -1,2 +1,5 @@
-- [67. Add Binary Approach 1: Bit-by-Bit Computation](67.1.md)
-- [67. Add Binary Approach 2: Bit Manipulation](67.2.md)
+- [67. Add Binary](https://leetcode.com/problems/add-binary)
+    - [Bit-by-Bit Computation](67.1.md)
+    - [Bit Manipulation](67.2.md)
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)
+    - [Binary Search](69.md)
