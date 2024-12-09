@@ -3,3 +3,5 @@
     - [Bit Manipulation](67.2.md)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)
     - [Binary Search](69.md)
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
+    - [Brute Force](70.1.md)
