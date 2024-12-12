@@ -4,5 +4,7 @@
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)
     - [Binary Search](69.md)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
-    - [Recursion](70.1.md)
+    - [Brute Force Recursion](70.1.md)
     - [Recursion with Cache](70.2.md)
+- [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
+    - [Straight Forward Approach](83.md)
