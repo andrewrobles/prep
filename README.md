@@ -1,6 +1,7 @@
 - [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
     - [Built-in Split + Reverse](reverse-words-in-a-string/built-in-split-+-reverse.md)
 - [283. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
+    - [Left and Right Product Lists](product-of-array-except-self/left-and-right-product-lists.md)
 - [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)
     - [Linear Scan](increasing-triplet-subsequence/linear-scan.md)
 - [443. String Compression](https://leetcode.com/problems/string-compression)
