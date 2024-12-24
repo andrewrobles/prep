@@ -4,7 +4,6 @@
     - [Left and Right Product Lists](product-of-array-except-self/left-and-right-product-lists.md)
 - [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)
     - [Linear Scan](increasing-triplet-subsequence/linear-scan.md)
-- [443. String Compression](https://leetcode.com/problems/string-compression)
 - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
     - [Straight Forward Approach](remove-duplicates-from-sorted-list/straight-forward-approach.md.md)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
