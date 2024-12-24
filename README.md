@@ -2,7 +2,7 @@
     - [Built-in Split + Reverse](151.md)
 - [283. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
 - [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)
-    - [Linear Scan](increasing-triplet-subsequence/linear-scan.js)
+    - [Linear Scan](increasing-triplet-subsequence/linear-scan.md)
 - [443. String Compression](https://leetcode.com/problems/string-compression)
 - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
     - [Straight Forward Approach](83.md)

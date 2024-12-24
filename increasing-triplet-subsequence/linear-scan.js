@@ -12,3 +12,5 @@ const increasingTriplet = nums => {
     }
     return false
 }
+
+module.exports = increasingTriplet
