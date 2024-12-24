@@ -1,6 +1,6 @@
 const compress = chars => {
-    let i = 0, j = 0
-    
+    let i = 0, j = 0, d = 0
+
     while (j < chars.length) {
         // increment j until we find a mismatch
         while (chars[i] == chars[j]) {
@@ -9,6 +9,12 @@ const compress = chars => {
         // perform a compression
         chars[i + 1] = (j - i).toString()
         i += 2
+
+        // make note of delta
+        d = j - i
+
+        // restore equality condition
+        chars[i] = chars[j]
     }
 
     // resize array
