@@ -12,16 +12,15 @@ const compress = chars => {
         if (count > 1) {
             // perform a compression
             let digits = []
-
             digits = count.toString().split('')
             digits.map((digit, digitIndex) => {
                 chars[i + 1 + digitIndex] = digit
             })
 
-            i += 1 + digits.length
-        }  else {
-            i += 1
+            i += digits.length
         }
+
+        i += 1
 
         if (i < chars.length - 1) {
             // restore equality condition
