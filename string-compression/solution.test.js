@@ -1,4 +1,4 @@
-const compress = require('./index')
+const compress = require('./solution')
 
 test('example 1', () => {
     chars = ['a', 'a', 'b', 'b', 'c', 'c', 'c']

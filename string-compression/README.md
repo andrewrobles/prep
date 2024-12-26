@@ -1,3 +1,5 @@
+### Two Pointers 
+
 #### Example 1
 > Input: chars = ["a","a","b","b","c","c","c"]
 Output: Return 6, and the first 6 characters of the input array should be: ["a","2","b","2","c","3"]
@@ -54,7 +56,7 @@ a 2 b 2 c c c
 Since we have reached the end there is no more values to copy so we resize the array to be 6 and return that value.
 ```
 a 2 b 2 c 3 c
-            i
+          i
             j
 ```
 #### Middle triple compression
@@ -90,7 +92,7 @@ a 3 b 2 c 2 c
             i
             j
 ```
-We have reached the end so we resize the array to i - 1 and return i - 1.
+We have reached the end of the array so we resize to i and return i
 
 #### Middle Double Digit Compression
 > Input: chars = ["a","b","b","b","b","b","b","b","b","b","b","b","b","c"]
@@ -119,13 +121,13 @@ a b b b b b b b b b b b b c
   i
                           j
 ```
-We take note of the initial difference between the indexes and copy over the new character and increment j and i.  
+perform the compression and move c after the number
 ```
 a b 1 2 c b b b b b b b b c
           i
                             j
 ```
-We have reached the end and no compression is necessary as found from looking at the initial delta so we resize the array to i - 1 and return i - 1.
+We have reached the end and no compression is necessary so we resize the array to i and return i.
 
 #### Example 2
 > Input: chars = ["a"]
@@ -141,3 +143,6 @@ Start. We see that j is at the end of the array. Since this is the case we must 
 
 #### Pseudocode
 We start by setting i and j equal to 0 and also d to 0. We increment j until we find a mismatch and when we do we must see if we need to perform a compression. We need to perform a compression if the count is bigger than 1. If we need to perform a compression we take the digits from count and place them in front of i. We place this number after i and then we increment i to go after this number. If we do not need to perform a compression then we set i to the next number. We repeat this process until j gets to the last digit and when that happens we have iterated through the entire array.
+
+#### Solution
+[solution.js](/string-compression/solution.js)
