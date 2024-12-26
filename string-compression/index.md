@@ -3,10 +3,6 @@
 Output: Return 6, and the first 6 characters of the input array should be: ["a","2","b","2","c","3"]
 Explanation: The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
 
-For the naive implementation, when i = 0 we cannot do anything because it is the first element. When i = 1 we have reached a compression case so we add a pointer to j = 0 and k = 1. When i = 2, we have finished the compression case so we must perform a compression. We set chars[j + 1] = j - k + 1 and continue. We do the same thing to handle the the consecutive b characters. When j = 4 and k = 6, we must perform a compression. we set chars[j + 1] = j - k + 1 then resize the array by shortening it by 1.
-
-The concern is that this has the potential to be very inefficient due to the fact that we have to shift the values in the case when we have to compress 3 or more characters that are not at the end of the array. I think we might be able to do a trailing and leading pointer approach.
-
 The pointers are both pointing to the same value so we do nothing. 
 ```
 a a b b c c c
@@ -53,13 +49,13 @@ When j reaches the end of the array we do a compression
 ```
 a 2 b 2 c c c
         i
-              j
+            j
 ```
 Since we have reached the end there is no more values to copy so we resize the array to be 6 and return that value.
 ```
 a 2 b 2 c 3 c
             i
-              j
+            j
 ```
 #### Middle triple compression
 > Input: chars = ["a", "a", "a", "b", "b", "c", "c"]
@@ -87,11 +83,12 @@ a 3 b 2 b c c
 We have reached the end so we perform a compression taking the delta into account.
 ```
 a 3 b 2 c c c
-        i     j
+        i   j
 ```
 ```
 a 3 b 2 c 2 c
-            i j
+            i
+            j
 ```
 We have reached the end so we resize the array to i - 1 and return i - 1.
 
@@ -135,17 +132,12 @@ We have reached the end and no compression is necessary as found from looking at
 Output: Return 1, and the first character of the input array should be: ["a"]
 Explanation: The only group is "a", which remains uncompressed since it's a single character.
 
-Start. We increment j.
 ```
 a
 i
 j
 ```
-We see that we have reached the end and that no compression is necessary so we increment i and return i.
-```
-a
-  i
-  j
-```
+Start. We see that j is at the end of the array. Since this is the case we must return the length of i which is 1. 
+
 #### Pseudocode
-We start by setting i and j equal to 0 and also d to 0. We increment j until we find a mismatch and when we do we must see if we need to perform a compression. We use i and j and d to determine this. If we perform a compression we just i and j and d to calculate the number and when we do this we need to see how many digits it is. We place this number after i and then we increment i to go after this number. We then note to see if there is a delta between i and j, if there is we store this in d. If we do not need to perform a compression then we set i to the next number and reset d. We then repeat this process until j goes out of bounds and when it does we have iterated through the entire array so we resize the array to i - 1 and return this number.
+We start by setting i and j equal to 0 and also d to 0. We increment j until we find a mismatch and when we do we must see if we need to perform a compression. We need to perform a compression if the count is bigger than 1. If we need to perform a compression we take the digits from count and place them in front of i. We place this number after i and then we increment i to go after this number. If we do not need to perform a compression then we set i to the next number. We repeat this process until j gets to the last digit and when that happens we have iterated through the entire array.
