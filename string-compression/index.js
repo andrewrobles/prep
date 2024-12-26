@@ -12,11 +12,8 @@ const compress = chars => {
         if (count > 1) {
             // perform a compression
             let digits = []
-            
-            while (count > 0) {
-                digits.unshift((count % 10).toString())
-                count = Math.floor(count / 10)
-            }
+
+            digits = count.toString().split('')
             digits.map((digit, digitIndex) => {
                 chars[i + 1 + digitIndex] = digit
             })
