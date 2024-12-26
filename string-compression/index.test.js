@@ -11,3 +11,9 @@ test('middle triple compression', () => {
     expect(compress(chars)).toBe(6)
     expect(chars).toEqual(['a', '3', 'b', '2', 'c', '2'])
 })
+
+// test('example 4', () => {
+//     chars = ['a','b','b','b','b','b','b','b','b','b','b','b','b']
+//     expect(compress(chars)).toBe(4)
+//     expect(chars).toEqual(['a', 'b', '1', '2'])
+// })
