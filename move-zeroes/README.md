@@ -3,7 +3,7 @@
 [solution.js](solution.js)
 
 ### Pseudocode
-Set A and B to 0. Increment A while A has not reached the last element and we have found `nums[A]` equal to a zero number. Set B to A. Increment B while B has not reached the last element and `nums[B]` is a nonzero number. Swap the numbers. Repeat until `nums[B]` has reached the last element and is zero.
+Set A and B to 0. Increment A while A has not reached the last element and we have found `nums[A]` equal to a zero number. Set B to A. Increment B while B has not reached the last element and `nums[B]` is a nonzero number. Swap the numbers if A is pointing to 0 and B is pointing to a nonzero number. Repeat until `nums[B]` has reached the last element.
 
 ### Example 1
 > Input: nums = [0,1,0,3,9]
