@@ -6,7 +6,7 @@ test('example 1', () => {
     expect(nums).toEqual([1, 3, 9, 0, 0])
 })
 
-test('should handle example 2', () => {
+test('example 2', () => {
     nums = [0]
     moveZeroes(nums)
     expect(nums).toEqual([0])
