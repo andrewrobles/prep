@@ -1,3 +1,4 @@
+- [392. Is Subsequence](/is-subsequence/README.md)
 - [283. Move Zeroes](/move-zeroes/README.md)
 - [443. String Compression](/move-zeroes/README.md)
 - [151. Reverse Words in a String](reverse-words-in-a-string/built-in-split-+-reverse.md)
