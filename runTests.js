@@ -1,7 +1,7 @@
 const runTests = (solution, tests) => {
-    tests.map(({ description, input, expected }) => {
+    tests.map(({ description, inputs, expected }) => {
         test(description, () => {
-            const result = solution(input);
+            const result = solution(...inputs);
             expect(result).toEqual(expected);
         });
     });

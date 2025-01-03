@@ -1,12 +1,31 @@
-const moveZeroes = require('./solution');
-const runTests = require('../runTests')
+const moveZeroes = require('./solution')
 
-const tests = [
-    { description: 'example 1', input: [0, 1, 0, 3, 9], expected: [1, 3, 9, 0, 0] },
-    { description: 'example 2', input: [0], expected: [0] },
-    { description: '0 0', input: [0, 0], expected: [0, 0] },
-    { description: '1 0', input: [1, 0], expected: [1, 0] },
-    { description: '2 1', input: [2, 1], expected: [2, 1] },
-];
+test('example 1', () => {
+    nums = [0, 1, 0, 3, 9]
+    moveZeroes(nums)
+    expect(nums).toEqual([1, 3, 9, 0, 0])
+})
 
-runTests(moveZeroes, tests)
+test('example 2', () => {
+    nums = [0]
+    moveZeroes(nums)
+    expect(nums).toEqual([0])
+})
+
+test('0 0', () => {
+    nums = [0, 0]
+    moveZeroes(nums)
+    expect(nums).toEqual([0, 0])
+})
+
+test('1 0', () => {
+    nums = [1, 0]
+    moveZeroes(nums)
+    expect(nums).toEqual([1, 0])
+})
+
+test('2 1', () => {
+    nums = [2, 1]
+    moveZeroes(nums)
+    expect(nums).toEqual([2, 1])
+})

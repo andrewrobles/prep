@@ -1,4 +1,4 @@
-[solution.js](solution.js)
+Solution: [maxArea.js](maxArea.js)
 
 ##### Pseudocode
 - Set both pointers i and j to the first and last elements of the array
