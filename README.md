@@ -1,3 +1,4 @@
+- [1679. Max Number of K-Sum Pairs - One Pass Hashmap](/max-number-of-k-sum-pairs-one-pass-hashmap/README.md)
 - [1679. Max Number of K-Sum Pairs - Two Pass Hashmap](/max-number-of-k-sum-pairs-two-pass-hashmap/README.md)
 - [11. Container With Most Water](/container-with-most-water/README.md)
 - [392. Is Subsequence](/is-subsequence/README.md)
