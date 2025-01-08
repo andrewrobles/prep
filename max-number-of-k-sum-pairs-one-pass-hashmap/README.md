@@ -1,3 +1,4 @@
+Solution: [maxOperations.js](maxOperations.js)
 #### One Pass Hashmap
 - create an operations variable and a hashmap variable
 - for each x in nums do the following:

@@ -1,0 +1,5 @@
+- initialize pointers i and j to 0 and k, respectively
+- if i is 0 then calculate the sum of the value and use this sum to calculate average and update max average if necessary
+- else, add the j value to the sum
+- subtract the i value from the sum 
+- increment i and j
