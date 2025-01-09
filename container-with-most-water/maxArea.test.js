@@ -1,12 +1,12 @@
-const runTests = require('../runTests')
+const defineTests = require('../defineTests')
 const maxArea = require('./maxArea')
 
-runTests(
+defineTests(
     maxArea,
     [
         {
             description: 'example 1',
-            inputs: [[1,8,6,2,5,4,8,3,7]],
+            inputs: [[1, 8, 6, 2, 5, 4, 8, 3, 7]],
             expected: 49
         },
         {
@@ -21,7 +21,7 @@ runTests(
         },
         {
             description: 'edge case 2',
-            inputs:  [[2,3,4,5,18,17,6]],
+            inputs: [[2, 3, 4, 5, 18, 17, 6]],
             expected: 17
         }
     ]

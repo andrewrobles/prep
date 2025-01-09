@@ -1,3 +1,5 @@
+- [1456. Maximum Number of Vowels in a Substring of Given Length](/maximum-number-of-vowels-in-a-substring-of-given-length/README.md)
+- [643. Maximum Average Subarray I - Sliding Window](/maximum-average-subarray-i/README.md)
 - [1679. Max Number of K-Sum Pairs - Two Pointers](/max-number-of-k-sum-pairs-two-pointers/README.md)
 - [1679. Max Number of K-Sum Pairs - One Pass Hashmap](/max-number-of-k-sum-pairs-one-pass-hashmap/README.md)
 - [1679. Max Number of K-Sum Pairs - Two Pass Hashmap](/max-number-of-k-sum-pairs-two-pass-hashmap/README.md)

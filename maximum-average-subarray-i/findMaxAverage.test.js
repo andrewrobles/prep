@@ -1,7 +1,7 @@
-const runTests = require('../runTests')
+const defineTests = require('../defineTests')
 const findMaxAverage = require('./findMaxAverage')
 
-runTests(
+defineTests(
     findMaxAverage,
     [
         {

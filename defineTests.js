@@ -1,4 +1,4 @@
-const runTests = (solution, tests) => {
+const defineTests = (solution, tests) => {
     tests.map(({ description, inputs, expected }) => {
         test(description, () => {
             const result = solution(...inputs);
@@ -7,4 +7,4 @@ const runTests = (solution, tests) => {
     });
 }
 
-module.exports = runTests
+module.exports = defineTests
