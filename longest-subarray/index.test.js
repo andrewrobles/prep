@@ -1,4 +1,4 @@
-const defineTests = require('../defineTests')
+const defineTests = require('../defineTestsV1')
 const longestSubarray = require('./index')
 
 defineTests(

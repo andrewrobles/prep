@@ -1,4 +1,4 @@
-const defineTests = require('../defineTests')
+const defineTests = require('../defineTestsV1')
 const maxOperations = require('./maxOperations')
 
 defineTests(

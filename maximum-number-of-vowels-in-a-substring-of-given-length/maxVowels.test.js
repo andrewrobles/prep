@@ -1,4 +1,4 @@
-const defineTests = require('../defineTests')
+const defineTests = require('../defineTestsV1')
 const maxVowels = require('./maxVowels')
 
 defineTests(
@@ -23,8 +23,8 @@ defineTests(
         {
             description: 'example 3',
             inputs: [
-               'leetcode',
-               3
+                'leetcode',
+                3
             ],
             expected: 2
         },

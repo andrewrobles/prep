@@ -1,4 +1,4 @@
-const defineTests = require('../defineTests')
+const defineTests = require('../defineTestsV1')
 const longestOnes = require('./longest-ones')
 
 defineTests(
@@ -7,7 +7,7 @@ defineTests(
         {
             description: 'example 1',
             inputs: [
-                [1,1,1,0,0,0,1,1,1,1,0],
+                [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0],
                 2
             ],
             expected: 6
@@ -15,7 +15,7 @@ defineTests(
         {
             description: 'example 2',
             inputs: [
-                [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1],
+                [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1],
                 3
             ],
             expected: 10
