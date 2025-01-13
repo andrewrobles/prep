@@ -1,4 +1,4 @@
-Solution: [largestAltitude.js](largestAltitude.js)
+Solution: [largest-altitude.js](largest-altitude.js)
 
 #### Prefix Sum
 - create an altitude variable and set it equal to 0

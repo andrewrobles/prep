@@ -1,5 +1,5 @@
 const defineTests = require('../defineTests')
-const largestAltitude = require('./index')
+const largestAltitude = require('./largest-altitude')
 
 defineTests(
     largestAltitude,

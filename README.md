@@ -1,4 +1,5 @@
-- [1732. Find the Highest Altitude](/largest-altitude/README.md)
+- [724. Find Pivot Index](/find-pivot-index/README.md)
+- [1732. Find the Highest Altitude](/find-the-highest-altitude/README.md)
 - [1493. Longest Subarray of 1's After Deleting One Element](/longest-subarray/README.md)
 - [1004. Max Consecutive Ones III](/max-consecutive-ones-iii/README.md)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](/maximum-number-of-vowels-in-a-substring-of-given-length/README.md)
