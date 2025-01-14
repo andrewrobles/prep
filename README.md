@@ -1,3 +1,4 @@
+- [1207. Unique Number of Occurences](/unique-number-of-occurences/README.md)
 - [2215. Find the Difference of Two Arrays](/find-the-difference-of-two-arrays/README.md)
 - [724. Find Pivot Index](/find-pivot-index/README.md)
 - [1732. Find the Highest Altitude](/find-the-highest-altitude/README.md)
