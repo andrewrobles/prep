@@ -1,3 +1,4 @@
+Solution: [longestSubarray.js](longestSubarray.js)
 #### Sliding Window
 - initialize two pointers i and j to 0
 - initialize a zeroes variable to be 0
